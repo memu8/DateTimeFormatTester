@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -90,7 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DateTimeFormatTester\DateTimeFormatTester.csproj">
-      <Project>{52D05DA1-A530-4AB8-8FFB-63A8632D714F}</Project>
+      <Project>{D06A4994-4753-4099-9D85-89EF355D7D84}</Project>
       <Name>DateTimeFormatTester</Name>
     </ProjectReference>
   </ItemGroup>
