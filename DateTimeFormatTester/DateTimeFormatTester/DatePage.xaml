@@ -7,12 +7,12 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" Padding="10">
             <Label Text="DatePicker Default (No Format String):" FontSize="20" FontAttributes="Bold" TextColor="#2488ad"/>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="20">
                 <Label Text="DatePicker:" FontSize="18" VerticalOptions="Center"/>
                 <DatePicker x:Name="datepickerdefault" HorizontalOptions="CenterAndExpand" />
             </StackLayout>
             <Label Text="DatePicker Changes With Format String:" FontSize="20" FontAttributes="Bold" TextColor="#2488ad"/>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="20">
                 <Label Text="DatePicker:" FontSize="18" VerticalOptions="Center"/>
                 <DatePicker x:Name="datepicker" HorizontalOptions="CenterAndExpand" />
             </StackLayout>
@@ -20,7 +20,7 @@
                 <Label Text="Format String:" FontSize="18" VerticalOptions="Center"/>
                 <Entry x:Name="dateformat" Placeholder="enter Format string" MaxLength="20" Completed="dateformat_Completed" VerticalOptions="Center"/>
             </StackLayout>
-            <Label x:Name="datephoneculture" HorizontalOptions="CenterAndExpand" FontSize="18"/>
+            <Label x:Name="datephoneculture" HorizontalOptions="CenterAndExpand" FontSize="18" Margin="30"/>
             <Label HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold" TextColor="Black" Text="Format String Key:" />
             <Label HorizontalOptions="StartAndExpand" FontSize="10" TextColor="Black" Text=" &#x2022; M = month from 1-12
                    &#x0a; &#x2022; MM = month from 01-12 
