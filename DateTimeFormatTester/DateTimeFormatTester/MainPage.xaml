@@ -5,4 +5,5 @@
 			x:Class="DateTimeFormatTester.MainPage">
     <local:DatePage AutomationId = "DateTab"/>
     <local:TimePage AutomationId = "TimeTab"/>
+	<local:KeyboardPage />
 </TabbedPage>
