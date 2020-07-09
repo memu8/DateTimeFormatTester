@@ -14,21 +14,22 @@
             <Label Text="DatePicker Changes With Format String:" FontSize="20" FontAttributes="Bold" TextColor="#2488ad"/>
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="20">
                 <Label Text="DatePicker:" FontSize="18" VerticalOptions="Center"/>
-                <DatePicker x:Name="datepicker" HorizontalOptions="CenterAndExpand" WidthRequest="250"/>
+                <DatePicker x:Name="datepicker" HorizontalOptions="CenterAndExpand" WidthRequest="250" AutomationId="dateCalendarOptions"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Label Text="Set Date (year, month, day):" FontSize="18" VerticalOptions="Center" />
+                <Entry x:Name="dateSetting" AutomationId="settingDate" Placeholder="enter Date   " MaxLength="20" HorizontalOptions="CenterAndExpand" Completed="dateSetting_Completed"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                 <Label Text="Format String:" FontSize="18" VerticalOptions="Center"/>
-                <Entry x:Name="dateformat" Placeholder="enter Format string" MaxLength="20" Completed="dateformat_Completed" VerticalOptions="Center"/>
+                <Entry x:Name="dateformat" AutomationId="dateFormatString" Placeholder="enter Format string" MaxLength="20" Completed="dateformat_Completed" VerticalOptions="Center"/>
             </StackLayout>
-            <Label x:Name="datephoneculture" HorizontalOptions="CenterAndExpand" FontSize="18" Margin="30"/>
+            <Label x:Name="datephoneculture" HorizontalOptions="CenterAndExpand" FontSize="18" Margin="20"/>
             <Label HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold" TextColor="Black" Text="Format String Key:"/>
-            <Label HorizontalOptions="StartAndExpand" FontSize="10" TextColor="Black" Text=" &#x2022; M = month from 1-12
-                   &#x0a; &#x2022; MM = month from 01-12 
-                   &#x0a; &#x2022; MMM = abbreviated month string
-                   &#x0a; &#x2022; MMMM = full month string
-                   &#x0a; &#x2022; d, dd = day from 0-31 or 01-31
-                   &#x0a; &#x2022; ddd = abbreviated day of the week
-                   &#x0a; &#x2022; dddd = full day of the week
+            <Label HorizontalOptions="StartAndExpand" FontSize="10" TextColor="Black" Text=" &#x2022; M, MM = month from 1-12/01-12
+                   &#x0a; &#x2022; MMM/MMMM = abbreviated/full month string
+                   &#x0a; &#x2022; d/dd = day from 0-31/01-31
+                   &#x0a; &#x2022; ddd/dddd = abbreviated/full day of the week
                    &#x0a; &#x2022; y, yy, yyy, yyyy = year with at least corresponding number of digits" />
             <Label HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold" TextColor="Black" Text="Some Example Format Strings:" />
             <Label HorizontalOptions="StartAndExpand" FontSize="10" TextColor="Black" Text=" &#x2022; MM/dd/yy

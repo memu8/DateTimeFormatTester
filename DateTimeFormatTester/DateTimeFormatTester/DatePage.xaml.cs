@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Essentials;
 using System.Windows.Input;
+using System;
 
 namespace DateTimeFormatTester
 {
@@ -28,5 +29,14 @@ namespace DateTimeFormatTester
 			var text = ((Entry)sender).Text;
 			datepicker.Format = text;
 		}
-	}
+
+        void dateSetting_Completed(System.Object sender, System.EventArgs e)
+        {
+			var date = ((Entry)sender).Text;
+			string[] divided = date.Split(',');
+			int[] sep_dates = Array.ConvertAll(divided, int.Parse);
+			datepicker.Date = new DateTime(sep_dates[0], sep_dates[1], sep_dates[2]);
+			//datepicker.Time = new TimeSpan(sep_times[0], sep_times[1], 00);
+		}
+    }
 }

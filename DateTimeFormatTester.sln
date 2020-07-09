@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeFormatTester.iOS", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeFormatTester", "DateTimeFormatTester\DateTimeFormatTester\DateTimeFormatTester.csproj", "{D06A4994-4753-4099-9D85-89EF355D7D84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeFormatTester.UITests", "DateTimeFormatTests.UITests\DateTimeFormatTester.UITests.csproj", "{CE404396-1FBA-4896-99B6-A066167D7455}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,30 @@ Global
 		{D06A4994-4753-4099-9D85-89EF355D7D84}.Release|x86.ActiveCfg = Release|Any CPU
 		{D06A4994-4753-4099-9D85-89EF355D7D84}.Release|x86.Build.0 = Release|Any CPU
 		{D06A4994-4753-4099-9D85-89EF355D7D84}.Release|x86.Deploy.0 = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|ARM.Build.0 = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|x64.Build.0 = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Debug|x86.Build.0 = Debug|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|ARM.ActiveCfg = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|ARM.Build.0 = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|iPhone.Build.0 = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|x64.ActiveCfg = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|x64.Build.0 = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|x86.ActiveCfg = Release|Any CPU
+		{CE404396-1FBA-4896-99B6-A066167D7455}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,11 +14,15 @@
             <Label Text="TimePicker Changes With Format String:" FontSize="20" FontAttributes="Bold" TextColor="#2488ad"/>
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Margin="20">
                 <Label Text="TimePicker:" FontSize="18" VerticalOptions="Center"/>
-                <TimePicker x:Name="timepicker" HorizontalOptions="CenterAndExpand"/>
+                <TimePicker x:Name="timepicker" HorizontalOptions="CenterAndExpand" AutomationId="timeClockOptions"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-                <Label Text="Format String:" FontSize="18" VerticalOptions="Center"/>
-                <Entry x:Name="timeformat" Placeholder="enter Format string" MaxLength="20" HorizontalOptions="CenterAndExpand" Completed="timeformat_Completed"/>
+                <Label Text="Set Time (hour, minute):" FontSize="18" VerticalOptions="Center" />
+                <Entry x:Name="timeSetting" AutomationId="settingTime" Placeholder="enter Time" MaxLength="20" HorizontalOptions="CenterAndExpand" Completed="timeSetting_Completed"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <Label Text="Format String:" FontSize="18" VerticalOptions="Center" />
+                <Entry x:Name="timeformat" AutomationId="timeFormatString" Placeholder="enter Format string" MaxLength="20" HorizontalOptions="CenterAndExpand" Completed="timeformat_Completed"/>
             </StackLayout>
             <Label x:Name="timephoneculture" HorizontalOptions="CenterAndExpand" FontSize="18" Margin="30"/>
             <Label HorizontalOptions="StartAndExpand" FontSize="10" FontAttributes="Bold" TextColor="Black" Text="Format String Key:" />

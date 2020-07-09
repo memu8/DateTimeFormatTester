@@ -3,6 +3,6 @@
 			xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 			xmlns:local="clr-namespace:DateTimeFormatTester"
 			x:Class="DateTimeFormatTester.MainPage">
-    <local:DatePage/>
-    <local:TimePage/>
+    <local:DatePage AutomationId = "DateTab"/>
+    <local:TimePage AutomationId = "TimeTab"/>
 </TabbedPage>
